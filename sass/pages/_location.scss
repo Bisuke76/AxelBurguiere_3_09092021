@@ -1,9 +1,13 @@
 // mise en forme location
+.locations{
+    background-color: $background-color;
+    box-shadow: inset 0px 8px 7px -4px #000000;
+} 
 .location{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', cursive;
     gap: 20px;
-    background-color: $background-color;
+    
 } 

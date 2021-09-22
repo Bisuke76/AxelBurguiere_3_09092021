@@ -13,38 +13,52 @@
 @import "./pages/homeheader";
 @import "./pages/location";
 // mise en forme et animation chargement page
+body{
+    margin: 0 auto;
+}
+
 .loading_spinner{
     display: flex;
     font-family: 'Shrikhand', cursive;
     justify-content: center;
-    &.loader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+}
+    
+    .loader{
+        display: flex;
+        margin: auto;
         animation: loader 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 alternate both;
     }
-    &.letter1{
+    .letter1{
         color: $primary-color;
     }
-    &.letter2{
+    .letter2{
         color: $secondary-color;
     }
-    &.letter3{
+    .letter3{
         color: $tertiary-color;
     }
-    &.letter4{
+    .letter4{
         color: $primary-color;
     }
-    &.letter5{
+    .letter5{
         color: $secondary-color;
     }
-    &.letter6{
+    .letter6{
         color: $tertiary-color;
     }
-    &.letter7{
+    .letter7{
         color: $primary-color;
     }
-    &.letter8{
+    .letter8{
         color: $secondary-color;
     }
-}
+
 @keyframes loader {
     0%{
         letter-spacing: 1em;
@@ -60,6 +74,9 @@
     }
 }
 @media #{$thin-down}{
+    .loading_spinner{
+        font-size: 20px;
+    }
     .loader{
         animation: loader 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 alternate both;
         @keyframes loader {
@@ -76,6 +93,21 @@
               opacity: 1;
             }
         }
+    }
+}
+.main_content{
+    opacity: 1;
+    animation: apparition_page 3s;
+}
+@keyframes apparition_page{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 
