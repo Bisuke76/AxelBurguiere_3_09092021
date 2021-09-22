@@ -6,14 +6,59 @@
 @import "./base/responsive";
 @import "./components/buttons";
 @import "./layouts/header";
-@import "./layouts/container";
+@import "./layouts/menus";
 @import "./layouts/footer";
 @import "./pages/cards";
 @import "./pages/about";
 @import "./pages/homeheader";
 @import "./pages/location";
-@import "./pages/menus";
-p{
-    color: red;
+// mise en forme et animation chargement page
+.loading_spinner{
+    display: flex;
     font-family: 'Shrikhand', cursive;
+    justify-content: center;
+    &.loader{
+        animation: loader 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 alternate both;
+    }
+    &.letter1{
+        color: $primary-color;
+    }
+    &.letter2{
+        color: $secondary-color;
+    }
+    &.letter3{
+        color: $tertiary-color;
+    }
+    &.letter4{
+        color: $primary-color;
+    }
+    &.letter5{
+        color: $secondary-color;
+    }
+    &.letter6{
+        color: $tertiary-color;
+    }
+    &.letter7{
+        color: $primary-color;
+    }
+    &.letter8{
+        color: $secondary-color;
+    }
 }
+@keyframes loader {
+    0% {
+        letter-spacing: 1em;
+        transform: translateZ(400px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+  }
+
+
+  
