@@ -1,0 +1,9 @@
+// mise en forme location
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', cursive;
+    gap: 20px;
+    background-color: $background-color;
+} 
