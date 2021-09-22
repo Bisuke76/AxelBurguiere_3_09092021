@@ -2,4 +2,11 @@ $thin: 280px;
 $medium: 768px;
 $large: 1024px;
 
+$thin-up: "only screen and (min-width: #{$thin})";
+$thin-down: "only screen and (max-width: #{$thin})";
+$medium-up: "only screen and (min-width: #{$medium})";
+$medium-down: "only screen and (max-width: #{$medium})";
+$large-up: "only screen and (min-width: #{$large})";
+$large-down: "only screen and (max-width: #{$large})";
+
 
