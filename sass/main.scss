@@ -29,35 +29,35 @@ body{
     font-size: 30px;
 }
     
-    .loader{
-        display: flex;
-        margin: auto;
-        animation: loader 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 alternate both;
-    }
-    .letter1{
-        color: $primary-color;
-    }
-    .letter2{
-        color: $secondary-color;
-    }
-    .letter3{
-        color: $tertiary-color;
-    }
-    .letter4{
-        color: $primary-color;
-    }
-    .letter5{
-        color: $secondary-color;
-    }
-    .letter6{
-        color: $tertiary-color;
-    }
-    .letter7{
-        color: $primary-color;
-    }
-    .letter8{
-        color: $secondary-color;
-    }
+.loader{
+    display: flex;
+    margin: auto;
+    animation: loader 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 alternate both;
+}
+.letter1{
+    color: $primary-color;
+}
+.letter2{
+    color: $secondary-color;
+}
+.letter3{
+    color: $tertiary-color;
+}
+.letter4{
+    color: $primary-color;
+}
+.letter5{
+    color: $secondary-color;
+}
+.letter6{
+    color: $tertiary-color;
+}
+.letter7{
+    color: $primary-color;
+}
+.letter8{
+     color: $secondary-color;
+}
 
 @keyframes loader {
     0%{
@@ -74,23 +74,23 @@ body{
     }
 }
 @media #{$thin-down}{
-    .loading_spinner{
-        font-size: 20px;
-    }
-    .loader{
-        animation: loader 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 alternate both;
-        @keyframes loader {
-            0% {
-              letter-spacing: -0.5em;
-              transform: translateZ(-700px);
-              opacity: 0;
+.loading_spinner{
+     font-size: 20px;
+}
+.loader{
+    animation: loader 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 alternate both;
+    @keyframes loader {
+         0% {
+            letter-spacing: -0.5em;
+            transform: translateZ(-700px);
+            opacity: 0;
             }
-            40% {
-              opacity: 0.6;
+        40% {
+            opacity: 0.6;
             }
-            100% {
-              transform: translateZ(0);
-              opacity: 1;
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
             }
         }
     }
