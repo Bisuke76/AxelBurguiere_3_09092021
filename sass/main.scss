@@ -15,6 +15,7 @@
 // mise en forme et animation chargement page
 body{
     margin: 0 auto;
+    overflow-x: hidden;
 }
 .loading_spinner{
     display: flex;
