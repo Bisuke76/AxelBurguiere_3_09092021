@@ -2,7 +2,7 @@
 .about{
     background-color: lighten($background-color, 2);
     // fonction assombrissement box shadow
-    &.btn{
+    &.btn-about{
         box-shadow: 7px 5px 5px darken($background-color, 5);
     }
 }
