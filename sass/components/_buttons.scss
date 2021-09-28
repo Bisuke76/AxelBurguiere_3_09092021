@@ -1,0 +1,11 @@
+// bouton explorer
+.btn-about{
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    background: linear-gradient($secondary-color, $primary-color);
+    &:hover{
+        background: red;
+        } 
+    }
+
