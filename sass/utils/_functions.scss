@@ -5,6 +5,10 @@
 // fonction assombrissement box shadow
 .btn-about{
         box-shadow: 1px 3px 3px 3px darken($background-color, 5);
+        &:hover{
+            box-shadow: 1px 3px 3px 3px darken($background-color, 15);
+
+        }
     }
 .btn-fg{
     box-shadow: 1px 3px 3px 3px darken($background-color, 1);

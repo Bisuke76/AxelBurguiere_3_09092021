@@ -3,10 +3,10 @@
     color: white;
     text-decoration: none;
     border-radius: 25px;
-    background: linear-gradient($secondary-color, $primary-color);
+    background: $clr-btn-about;
     &:hover{
-        background: red;
-    } 
+        opacity: 0.8;
+    }
 }
 
 
