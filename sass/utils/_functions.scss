@@ -1,8 +1,13 @@
 // fonction éclaircissement background
-.about{
+.about, .btn-fg{
     background-color: lighten($background-color, 2);
-    // fonction assombrissement box shadow
-    &.btn-about{
-        box-shadow: 7px 5px 5px darken($background-color, 5);
-    }
 }
+// fonction assombrissement box shadow
+.btn-about{
+        box-shadow: 1px 3px 3px 3px darken($background-color, 5);
+    }
+.btn-fg{
+    box-shadow: 1px 3px 3px 3px darken($background-color, 1);
+
+}
+
