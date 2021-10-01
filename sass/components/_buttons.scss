@@ -8,5 +8,23 @@
         opacity: 0.8;
     }
 }
+// boutons fonctionnement
+.btn-fg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    margin: 25px 0px;
+    width: 95%;
+    height: 75px;
+    &:hover{
+        background: lighten($primary-color, 36);
+
+        .fa, .fas{
+            color: $primary-color;
+        }
+        
+    }
+}
 
 

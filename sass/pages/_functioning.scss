@@ -4,14 +4,8 @@
     }
     &.list{
         list-style: none;
+        padding-left: 30px;
         
-    }
-    &.btn-fg{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        border-radius: 15px;
-        margin: 25px 0;
     }
     &.number{
         display: flex;
@@ -22,17 +16,19 @@
         height: 25px;
         width: 25px;
         background: $primary-color;
-        
+        position: absolute;
+        left: 17px;
     }
     &.fa, .fas{
         color: gray;
         width: 20px;
         font-size: 20px;
+        padding-left: 30px;
         
     }
     &.text{
         font-weight: bold;
-        padding: 0;
+        
         
     }
     
