@@ -28,9 +28,10 @@
     }
     &.text{
         font-weight: bold;
-        @media #{$thin-down}{
-            font-size: 13px;
+        @media #{$medium-down}{
+            font-size: 14px;
         }
+        
 
     }
 }
