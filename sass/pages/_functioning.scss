@@ -28,9 +28,13 @@
     }
     &.text{
         font-weight: bold;
-        
-        
+        @media #{$thin-down}{
+            font-size: 13px;
+        }
+
     }
-    
-    
 }
+
+        
+   
+
