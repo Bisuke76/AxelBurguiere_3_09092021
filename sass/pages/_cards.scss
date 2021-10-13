@@ -1,6 +1,23 @@
 .cards{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0 0 0;
     &.title{
-        padding: 20px 0 0 20px;
+        padding: 0 0 0 20px;
 
     }
+    &.menus{
+        text-decoration: none;
+        color: black;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    &.img{
+        object-fit: cover;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    
+
 }

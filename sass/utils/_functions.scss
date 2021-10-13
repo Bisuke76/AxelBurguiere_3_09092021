@@ -1,5 +1,5 @@
 // fonction éclaircissement background
-.about{
+.about, .cards{
     background-color: lighten($background-color, 2);
 }
 .btn-fg{
