@@ -1,7 +1,7 @@
 // variables responsives
-$thin: 280px;
-$medium: 768px;
-$large: 1024px;
+$thin: 280px!default;
+$medium: 768px!default;
+$large: 1024px!default;
 
 $thin-up: "only screen and (min-width: #{$thin})";
 $thin-down: "only screen and (max-width: #{$thin})";

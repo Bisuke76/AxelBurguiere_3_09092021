@@ -28,7 +28,7 @@
     }
     &.text{
         font-weight: bold;
-        @media #{$medium-down}{
+        @media #{$thin-down}{
             font-size: 14px;
         }
         
