@@ -135,11 +135,11 @@ body {
 .map {
     @include flexbox-center();
     background: #f3f3f3;
-    color: #7a7a7a;
+    box-shadow: inset 0px 1px 3px 1px #000000;
 
     &__title {
         margin-left: 13px;
-        font-weight: 400;
+        font-weight: bold;
     }
 
 }  
@@ -193,6 +193,7 @@ body {
     }
     &__p{
         padding-right:10px;
+        font-weight: bold;
     }
     &__choice {
         display: flex;
@@ -382,6 +383,19 @@ body {
 
 
 /* Responsive*/ 
+@media screen and (max-width: 540px){
+    .restaurant{
+        align-items: inherit;
+        padding: inherit;
+        &__title{
+            padding-left: 10px;
+        }
+        
+
+    
+        
+    }
+}
 
 
 @media screen and (min-width: 600px) {
