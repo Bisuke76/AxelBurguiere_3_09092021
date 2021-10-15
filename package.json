@@ -4,7 +4,9 @@
   "description": "P3",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./style.css --style compressed"
+    "sass": "sass --watch [</style_home.scss>:</style_home.css>] [</style_menu.scss>:</style_menu.css>] --compressed"    
+    
+    
   },
   "repository": {
     "type": "git",
