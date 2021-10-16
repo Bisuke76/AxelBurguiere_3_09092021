@@ -4,7 +4,7 @@
   "description": "P3",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch [<input.css>:<output.css>] [<input/>:<output/>] --style compressed"
+    
     
     
     
