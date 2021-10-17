@@ -196,7 +196,7 @@ header .header__color {
 }
 .menu__button {
   opacity: 1;
-  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   padding: 0 20px;
   border-radius: 200px;
