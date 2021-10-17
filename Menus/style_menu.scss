@@ -3,14 +3,12 @@
     justify-content: center;
     align-items: center;
 }
-
 @mixin button-hover {
     opacity: 0.8;
     cursor: pointer;
     transition: .3s;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);    
 }
-
 @mixin button-style {
     opacity: 1;
     background: $gradient;
@@ -19,12 +17,10 @@
     border-radius: 200px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);  
 }
-
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 $gradient : linear-gradient($color-secondary, $color-primary);
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -33,18 +29,14 @@ body {
     flex-direction: column;
     
 }
-
 * a {
     text-decoration: none;
     color: white;
 }
-
 main{
     width: 100%;
 }
-
 /*Header */ 
-
 header {
     z-index: 10;
     background: white;
@@ -61,7 +53,6 @@ header {
             position: absolute;
             left: 15px; top: 30%;
             font-size: 30px;
-            
         }
         &__logo {
             font-family: 'Shrikhand', cursive;
@@ -70,15 +61,12 @@ header {
                 color: #000;
             }
         }
-
         &__color{
             color: black;
         }
     }
 }
-
 /*Images*/
-
 .img {
     width: 100%;
     height: 50vh;
@@ -89,15 +77,12 @@ header {
         object-fit: cover;
     }
 }
-
 /*Menus */
-
 #menus {
     background: white;
     width: 100%;
     @include flexbox-center;
 }
-
 .menu {
     margin-top: -200px;
     padding: 0 20px;
@@ -113,7 +98,6 @@ header {
         &__title {
             font-family: 'Shrikhand', cursive;
         }
-
         &__heart {
             .heart {
                 width: 30px;
@@ -133,11 +117,9 @@ header {
                   opacity: 0;
                   transition: 0.5s;
                 }
-              
             }
         }
     }
-
     &__full {
         display: grid;
         grid-gap: 40px;
@@ -161,7 +143,6 @@ header {
                 }        
             }    
         }
-        
         &__card {
             position: relative;
             cursor: pointer;
@@ -199,9 +180,6 @@ header {
                 }
             }
         }
-
-
-        
     }
     &__card {
         &__dish {
@@ -213,7 +191,6 @@ header {
                 text-overflow: ellipsis;
                 overflow: hidden;
             }
-            
             &-title {
                 font-weight: bold;
             }
@@ -237,7 +214,6 @@ header {
             @include button-hover;
         }
     }
-
 }
     .dish-and-price {
     width: 100%;
@@ -245,7 +221,6 @@ header {
     justify-content: space-between;
     align-items: center;
     }
-
     @keyframes rotate {
         0% {
             transform: rotate(0);
@@ -254,72 +229,55 @@ header {
             transform: rotate(360deg);
         }
     }
-    
-      @keyframes slide-left {
+    @keyframes slide-left {
         0% {
                   transform: scaleX(0);
         }
         100% {
                   transform: scale(1.1);
         }
-      }
-      
-     
-      @keyframes opacity {
+    }
+    @keyframes opacity {
         0% {
                   opacity: 0;
         }
         100% {
                   opacity: 1;
         }
-      }
-      
-      .appears-with-opacity {
-            animation: opacity 2s both;
     }
-    
+    .appears-with-opacity {
+        animation: opacity 2s both;
+    }
     #card-1 {
         animation-delay: 0.1s;
     }
-    
     #card-2 {
         animation-delay: 0.3s;
     }
-    
     #card-3 {
         animation-delay: 0.5s;
     }
-    
     #card-4 {
         animation-delay: 0.7s;
     }
-    
     #card-5 {
         animation-delay: 0.9s;
     }
-    
     #card-6 {
         animation-delay: 0.11s;
     }
-    
     #card-7 {
         animation-delay: 0.13s;
     }
-    
     #card-8 {
         animation-delay: 0.15s;
     }
-    
     #card-9 {
         animation-delay: 0.17s;
     }
-
     #card-10 {
         animation-delay: 0.20s;
     }
-
-
-
 /*Footer */
 .footer {
     width: 100%;
@@ -374,9 +332,7 @@ header {
             margin-top: 0;
         }
 }
-
 @media screen and (min-width: 600px) {
-
     .footer {
         &__bloc {
             margin-bottom: 15px;
@@ -384,22 +340,17 @@ header {
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row;
-                
             }
         }
     }
-
     .footerLogo{
         display: flex;
         justify-content: center;
         align-items: center;
     }
 }
-
 @media screen and (min-width:390px) {
-
     .menu__card{
         width: 350px;
     }
-    
 }
