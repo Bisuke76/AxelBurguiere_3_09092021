@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "P3",
   "main": "index.js",
-  "liveServer.settings.port": 5501,
+  "liveServer.settings.port": 5500,
   "scripts": {
     
     
