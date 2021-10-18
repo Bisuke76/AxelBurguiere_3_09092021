@@ -509,7 +509,7 @@ header .header__color {
   .menu__full {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
